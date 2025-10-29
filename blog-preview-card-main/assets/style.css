@@ -24,7 +24,7 @@ body {
 }
 
 
-/* 
+/*  if using grid, but not optimizing it yet
     .container-preview-card {
       display: grid;
       grid-template-columns:repeat(3, 400px) ;
