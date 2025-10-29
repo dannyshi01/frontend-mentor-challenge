@@ -28,14 +28,14 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-<!-- 
-![screenshot.png](./screenshot.png) -->
+
+![screenshot.png](./screenshot.png)
 
 ### Links
 
 - Solution URL: [solution URL](https://github.com/dannyshi01/frontend-mentor-challenge/tree/main/blog-preview-card-main)
 
-- Live Site URL: [live site URL]()
+- Live Site URL: [live site URL](https://dannyshi01.github.io/frontend-mentor-challenge/blog-preview-card-main/index.html)
 
 ## My process
 
