@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](hhttps://github.com/dannyshi01/frontend-mentor-challenge/tree/main/qr-code-component-main)
+- Solution URL: [solution URL](https://github.com/dannyshi01/frontend-mentor-challenge/tree/main/qr-code-component-main)
 
 - Live Site URL: [live site URL](https://dannyshi01.github.io/frontend-mentor-challenge/qr-code-component-main/index.html)
 
