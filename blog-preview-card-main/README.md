@@ -75,7 +75,7 @@ Find more case to practice for understand the basic of frontend
 
 ## Author
 
-- Website - [Danny]()
+- Website - [Danny](https://dannyshi01.github.io/frontend-mentor-challenge/blog-preview-card-main/index.html)
 - Frontend Mentor - [@danny](https://www.frontendmentor.io/profile/dannyshi01)
   
 
