@@ -1,0 +1,110 @@
+/* css reset */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+/* root element (like <html> ) only :root can declare global variable */
+:root {
+
+  --grass-green: hsl(75, 94%, 57%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+
+}
+
+body {
+  font-family: "Inter", "Figtree", monospace;
+  background-color: var(--grey-900);
+}
+
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: -20px;
+
+}
+
+.user-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  border-radius: 10px;
+  background-color: var(--grey-800);
+  padding: 30px;
+
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  /* margin-top: 30px ; */
+  margin-bottom: 20px;
+
+}
+
+.user-wrap h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.user-wrap h2 {
+  color: var(--grass-green);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-wrap p {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.sociallink-wrap {
+  width: 100%;
+  justify-items: center;
+
+}
+
+
+.sociallink {
+  background-color: var(--grey-700);
+  font-size: 12px;
+  font-weight: 500;
+  align-content: center;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
