@@ -51,7 +51,7 @@ body {
 .avatar {
   border-radius: 50%;
   width: 80px;
-  margin-top: 1rem ;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 
 }
@@ -97,6 +97,11 @@ body {
 
 }
 
+.sociallink:hover,
+.sociallink:active {
+  background-color: var(--grass-green);
+  color: black;
+}
 
 .attribution {
   font-size: 11px;
