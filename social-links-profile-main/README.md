@@ -1,10 +1,10 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Social links profile
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
 ## Table of contents
 
-- [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
+- [Frontend Mentor - Social links profile](#frontend-mentor---social-links-profile)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -68,7 +68,3 @@ Find more case to practice for understand the basic of frontend
   
 
 ## Acknowledgments
-
-For this project I refer to 
-Github - @vickbkl[https://github.com/vickbk/vickbk.github.io/blob/main/frontendmentor/blog-preview-card-main] for some css tricks and technics.
-it helps a lot for me to know how others construct the challenge and having a model with the whole chanllenge

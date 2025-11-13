@@ -1,0 +1,193 @@
+
+    /* root element (like <html> ) only :root can declare global variable */
+    :root {
+      --Stone100: hsl(30, 54%, 90%);
+      --Stone150: hsl(30, 18%, 87%);
+      --Stone600: hsl(30, 10%, 34%);
+      --Stone900: hsl(24, 5%, 18%);
+      --Brown800: hsl(14, 45%, 36%);
+      --Rose800: hsl(332, 51%, 32%);
+      --Rose50: hsl(330, 100%, 98%);
+
+      --title: 'Young Serif', monospace;
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-size: 16px;
+      font-family: "Outfit", "Figtree", "Inter", "Young Serif", monospace;
+      color: var(--Stone600);
+      background-color: var(--Stone100);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+    /* RWD media query desktop*/
+    @media screen and (min-width:780px) {
+
+
+      .wrap {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 2rem;
+        max-width: 700px;
+        padding: 2rem;
+        height: fit-content;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+      }
+
+      .recipe-image{
+        width: 100%;
+        border-radius: 1rem;
+      }
+
+    }
+
+    /* RWD media query mobile*/
+    @media screen and (max-width:780px) {
+
+
+      .wrap {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+        padding: 2rem;
+        height: fit-content;
+      }
+
+
+      .recipe-image {
+        width: 100vw;
+        margin-left: -2rem;
+        margin-top: -2rem;
+      }
+
+    }
+
+
+    h1 {
+      font-family: var(--title);
+      color: black;
+      font-weight: 300;
+      margin: 0%;
+    }
+
+    h2 {
+      font-family: var(--title);
+      color: var(--Brown800);
+
+    }
+
+    .title {
+      margin: 1.5rem 0 ;
+
+    }
+
+    .desc {
+      margin-bottom: 1rem;
+    }
+
+    .preparation-time {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: var(--Rose50);
+      border-radius: 1rem;
+      padding: 1.5rem;
+
+    }
+
+    .preparation-time h2 {
+      color: var(--Rose800);
+      font-family: 'outfit';
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    .general-list {
+      padding-left: 1.2rem;
+      margin: 0%;
+    }
+
+    .general-list li {
+      margin-top: 1rem;
+      padding-left: 1rem;
+    }
+
+
+    .preparation-time li::marker {
+      color: var(--Rose800);
+    }
+
+    .ingredients li::marker {
+      color: var(--Brown800);
+    }
+
+    .order-list {
+      padding-left: 1.2rem;
+      margin: 0%;
+    }
+
+    .order-list li {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      /* text-indent: 1rem; */
+      line-height: 1.4rem;
+    }
+
+
+
+    .order-list li::marker {
+      color: var(--Brown800);
+    }
+
+
+    hr {
+      border: none;
+      margin: 2rem 0;
+      height: 2px;
+      background-color: #ddd;
+      width: 100%;
+
+    }
+
+
+    table {
+      width: 100%;
+      /* make the border to collapse as one line */
+      border-collapse: collapse;
+      /* hidden the outside border (!! it has the most privilege so that i can correspond with the border internal ) */
+      border: hidden;
+    }
+
+
+    td {
+      border-top: #ddd 1px solid;
+      padding: 1rem;
+    }
+
+    td span {
+      color: var(--Brown800);
+      font-weight: bold;
+    }
+
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
