@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://dannyshi01.github.io/frontend-mentor-challenge/</loc>
+    <lastmod>2025-11-28</lastmod> 
+    <changefreq>monthly</changefreq> 
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://dannyshi01.github.io/frontend-mentor-challenge/blog-preview-card-main/index.html</loc>
+    <lastmod>2025-11-28</lastmod> 
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://dannyshi01.github.io/frontend-mentor-challenge/qr-code-component-main/index.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://dannyshi01.github.io/frontend-mentor-challenge/social-links-profile-main/index.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://dannyshi01.github.io/frontend-mentor-challenge/recipe-page-main/index.html</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
